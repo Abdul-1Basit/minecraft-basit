@@ -28,6 +28,35 @@
   color: #61dafb;
 }
 
+.rowing{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.submitBtn{
+  height:45px;
+  align-items: center;
+  justify-content: space-between;  display:flex;
+  width:120px;
+  background-color: navy;
+  color:#fff;
+}
+.inputStyling{
+  width: 100%;
+  max-width: 250px;
+  height:45px;
+  border:1px solid #bababa;
+  outline:none;
+  padding-left: 10px;
+  border-radius: 4px;
+}
+.tableHeading{
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: .5rem;
+  color: navy;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
